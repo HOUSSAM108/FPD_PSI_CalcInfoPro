@@ -3,7 +3,6 @@ import java.io.FileWriter;
 import java.io.IOException;
 import javax.script.ScriptEngine;
 import javax.script.ScriptEngineManager;
-import javax.swing.ImageIcon;
 import javax.swing.JFileChooser;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
@@ -557,7 +556,9 @@ public class Calcinfo extends javax.swing.JFrame {
         jLabel_pantalla_segundaria.setText(jLabel_pantalla_segundaria.getText()+numero);      
     }
    public void Mostrartexto(){
-       JTextArea1.setText("Decimal = " + resultado + "\n" + "Hexadecimal = " + hex + "\n"+ "Octal = " + oct + "\n" + "Binario = " + bin);
+       
+       String Operacion = jLabel_pantalla_segundaria.getText();
+       JTextArea1.setText("Operacion = "+ Operacion + "\n" + "\n" + "Decimal = " + resultado + "\n" + "\n" + "Hexadecimal = " + hex + "\n" + "\n"+ "Octal = " + oct + "\n" + "\n" + "Binario = " + bin);
    }
    private void Exportar() {
         try {
