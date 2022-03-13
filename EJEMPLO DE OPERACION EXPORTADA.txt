@@ -1,0 +1,9 @@
+Operacion = 5+5
+
+Decimal = 10
+
+Hexadecimal = a
+
+Octal = 12
+
+Binario = 1010
