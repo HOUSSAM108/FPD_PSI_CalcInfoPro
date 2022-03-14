@@ -25,7 +25,7 @@ Aparte de la información que se encuentra en este documento, podrá encontrar l
 
 # Correr
 
-Has de tener instalado en el ordenador una versión de java superior a la 8. luego puedes abrir el programa  dando doble click, estando dentro del programa puedes usar el programa libremente como una calculadora básica y sencilla, para acceder a las opciones avanzadas del programa puedes darle al botón CalcInfoPro y te mostrará las conversiones.
+Has de tener instalado en el ordenador una versión de java superior a la 8. luego puedes abrir el programa  dando doble click y teniendo el .jar y la carpeta lib, estando dentro del programa puedes usar el programa libremente como una calculadora básica y sencilla, para acceder a las opciones avanzadas del programa puedes darle al botón CalcInfoPro y te mostrará las conversiones.
 
 
 # Diseño
